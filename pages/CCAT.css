@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.company-logo img{
+    width: 100px;
+    margin-left: 30px;
+}
+.nav-links{
+    flex-basis: 730px;
+    text-decoration: none;
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.header-caption{
+    width: 100%;
+    background-color: rgb(63, 42, 152);
+    height: 70px;
+    
+}
+.para{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.para p{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.btn-crossprep{
+    display:flex;
+    float: right;
+    align-items: center;
+    text-align: center;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+.btn{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: yellow;
+}
+.text-left{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.text-left h1{
+    font-size: 50px;
+    color: rgb(63, 42, 152);
+    font-family:  Roboto;
+    width: 48%;
+}
+.text-left h3{
+    font-size:18px ;
+    font-family: Roboto;
+    width: 53%;
+    margin-top: 25px;
+    color: rgb(60, 60, 60);
+}
+.students-count{
+    margin-left: 30px;
+    margin-top: 25px;
+    color: rgb(63, 42, 152);;
+}
+.students-count i{
+   color:rgb(63, 42, 152);
+   font-size: 20px;
+}
+.rating{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    color:rgb(63, 42, 152) ;
+}
+.rating i{
+    color: rgb(255, 223, 43);
+}
+.btn1{
+    width: 20%;
+    color: white;
+    font-size: 18px;
+}
+.start{
+    margin-left: -400px;
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  rgb(1, 146, 103);
+    border: none;
+}
+.start a{
+    text-decoration: none;
+    color: white;
+}
+.img-right{
+    float: right;
+    margin-top: -335px;
+}
+.prep-course{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 250px;
+    border: 0.5px solid black;
+    border-radius:5px ;
+    height: 420px;
+}
+.prep-course h1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    color: rgb(63, 42, 152);
+}
+.first-box {
+    float: left;
+    width: 30%;
+    height: 300px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:rgb(63, 42, 152); 
+}
+.first-box h1{
+    font-size: 16px;
+    color: rgb(255, 223, 43);
+    font-weight: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.second-box{
+    float: left;
+    width: 33%;
+    height:300px ;
+    border:none;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:rgb(63, 42, 152); 
+}
+.second-box h1{
+    font-size: 16px;
+    color: rgb(255, 223, 43);
+    font-weight: 2rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.third-box{
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+.third-box img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.first-box p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+.second-box p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 5px;
+    line-height: 30px;
+}
+.ccat-btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(255, 223, 43) ;
+}
+.feedback{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+}
+.feedback img{
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.feedback h1{
+    margin-left: 40px;
+    width: 30%;
+    font-size: 30px;
+    line-height: 40px;
+    font-family:  Roboto;
+    color: rgb(4, 136, 159);    
+}
+.img-review{
+    width: 30%;
+    height: 30%;
+}
+.img-review img{
+    margin-left: 500px;
+    margin-top: -400px;
+    width: 700px;
+    height: 500px;
+    cursor: text;
+}
+.promise{
+    width: 90%;
+    height: 430px;
+    border: 1px solid black;
+    margin-left: 55px;
+    border-radius: 10px;
+    box-shadow :rgba(0, 0, 0, 0.5) 0px 5px 10px -5px;
+    background-color: rgb(255, 255, 255);
+}
+.promise h1{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(4, 136, 159);
+    font-size: 40px;
+}
+.success-promise{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.success-promise p{
+    color:rgb(60, 60, 60) ;
+    font-size: 24px;
+}
+.riskfree{
+    width: 30%;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(63, 42, 152);
+    float: left;
+}
+.riskfree h1{
+   font-size: 20px;
+   color: rgb(255, 223, 43);
+   
+}
+.riskfree p{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size:18px;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.pass{
+    width: 30%;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color:rgb(255, 223, 43) ;
+    float: left;
+}
+.pass h1{
+   font-size: 20px;
+   color:black;
+}
+.pass p{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size:18px;
+    color: rgb(77, 77, 77);
+    line-height: 25px;
+}
+.Lifetime{
+    width: 30%;
+    height: 240px;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(63, 42, 152);
+    float: right;
+}
+.Lifetime h1{
+   font-size: 20px;
+   color: rgb(255, 223, 43);
+   
+}
+.Lifetime p{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size:18px;
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+.course1{
+    width: 40%;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+    float: left;
+}
+.course h1{
+    margin-top: 30px;
+}
+.course1 i{
+    line-height: 50px;
+    color:  rgb(63, 42, 152);
+    font-size: 20px;
+    margin-left: 50px;
+}
+.course1 .fa-solid{
+    color: lightgreen;
+}
+.ratings{
+    width: 100%;
+    margin-left: 600px;
+    margin-top: -500px;
+}
+.rating{
+    float: left;
+    color: black;
+}
+.ratings p{
+    margin-top: 70px;
+    margin-left: 30px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.ratings a{
+    text-decoration: none; 
+    margin-top: 20px;
+}
+.ratings i{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.fee{
+    border: 0.5px solid lightskyblue;
+    margin-top: 10px;
+    width: auto;
+}
+.ratings h3{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+.ratings h4{
+    float: right;
+    margin-top: -20px; 
+}
+.buy{
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(242, 41, 91);
+    margin-left: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.buy h1{
+    color: white;
+    font-size: 25px;
+}
+.purchase{
+    width: 550px;
+   margin-left: 550px;
+   text-decoration: underline;
+   margin-top: 30px;
+}
+.purchase i{
+    text-decoration: none;
+}
+.course-2{
+    width: 100%;
+    height: 670px;
+    border: 0.5px solid black;
+    margin-top: 650px;
+    margin-left: 50px;
+    border-radius: 5px; 
+    color: black; 
+    background-color:white;
+ }
+ .course-2 .ccat-coach{
+    padding-top: 10px;
+    font-family: Roboto;
+    color: white;
+    background-color: rgb(63, 42, 152);
+ }
+ .course2-details{
+    width: 45%;
+    height: 580px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+ }
+ .course2-details i{
+    line-height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(63, 42, 152);
+ }
+ .ratings1{
+    width: 100%;
+    margin-left:600px;
+    margin-top: -500px;
+}
+.ratings1 .rating10 i{
+    display: inline-flex;
+    font-size: 16px;
+    color: rgb(63, 42, 152);
+    margin-left: 5px;
+}
+.ratings1 .rating10 .blank{
+    color: gray;
+}
+.rating1{
+    float: left;
+    color: black;
+}
+.ratings1 p{
+    margin-top: 35px;
+    margin-left: -10px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.ratings1 a{
+    text-decoration: none; 
+    margin-top: 20px;
+}
+.ratings1 i{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.fee2{
+    border: 0.5px solid lightskyblue;
+    margin-top: 10px;
+    width:400px;
+}
+.ratings1 h3{
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    
+}
+.ratings1 h4{
+    float: right;
+    margin-top: -20px; 
+}
+.buy2{
+    width: 220px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background-color: rgb(242, 118, 64);
+    margin-left: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.buy2 h1{
+    color: white;
+    font-size: 22px;
+}
+.purchase2{
+   width: 550px;
+   margin-left: 550px;
+   text-decoration: underline;
+   margin-top: 30px;
+}
+.purchase2 i{
+    text-decoration: none;
+}
+.course-details{
+    width: 100%;
+    height: 1220px;
+    background-color: rgb(245, 254, 255);
+    margin-left: -50px;
+}
+.course-details h1{
+    margin-left: 100px; 
+    font-family:Roboto;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.course-content{
+   border: none;
+    width: 55%;
+    height: 30px;
+    margin-top: 40px;
+    margin-left:100px ;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(63, 42, 152);
+    color: white;
+}
+.content-details{
+    width: 55%;
+    height: 1100px;
+    border: 2px solid black;
+    margin-left: 100px;
+}
+.content-details h4{
+    margin-top: 20px;
+    color: rgb(63, 42, 152);
+    font-family: roboto;
+    background-color:rgba(0, 114, 177, 0.13);
+    font-family: roboto;
+    font-size: 15px;
+}
+.content-details i{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(63, 42, 152);
+}
+.ccat-fee{
+   float: right;
+   width: 430px;
+   height: 450px;
+   background-color: rgb(63, 42, 152);
+   margin-top: -1130px;
+   border: none;
+   position: sticky;
+   top: 10px;
+}
+.ccat-fee h3{
+    color: white;
+    font-family: roboto;
+    font-size: 25px;
+    margin-left: 8px;
+}
+.ccat-fee i{
+    color:rgb(255, 223, 43) ;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.ccat-fee h4{
+    color: white;
+    font-size: 15px;
+    display: inline;
+    font-family: roboto;
+}
+.coursefee{
+    background-color: white;
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.coursefee strike{
+    color: red;
+}
+.buy-ccat{
+    background-color: rgb(255, 223, 43);
+    margin-top: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+    font-size: 25px;
+    font-family: arial;
+}
+.buy-ccat i{
+    color: rgb(60, 60, 60);
+    margin-left: -70px;
+    font-size: 20px;
+}
+.purchase-protect{
+    color: white;
+    line-height:25px;
+    row-gap: 5px;
+}
+.course-details2{
+    width: 100%;
+    height: 1740px;
+    background-color: rgb(245, 254, 255);
+    margin-left: -50px;
+}
+.course-details2 h1{
+    margin-left: 100px; 
+    font-family:Roboto;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.course-content2{
+   border: none;
+    width: 55%;
+    height: 30px;
+    margin-top: 40px;
+    margin-left:100px ;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(63, 42, 152);
+    color: white;
+}
+.content-details2{
+    width: 55%;
+    height: 1550px;
+    border: 2px solid black;
+    margin-left: 100px;
+}
+.content-details2 h4{
+    margin-top: 20px;
+    color: rgb(63, 42, 152);
+    font-family: roboto;
+    background-color:rgba(0, 114, 177, 0.13);
+    font-family: roboto;
+    font-size: 15px;
+}
+.content-details2 i{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(63, 42, 152);
+}
+.ccat-fee2{
+    float: right;
+    width: 430px;
+    height: 450px;
+    background-color: rgb(63, 42, 152);
+    margin-top: -1580px;
+    border: none;
+    position: sticky;
+    top: 10px;
+ }
+ .ccat-fee2 h3{
+     color: white;
+     font-family: roboto;
+     font-size: 25px;
+     margin-left: 8px;
+ }
+ .ccat-fee2 i{
+     color:rgb(255, 223, 43) ;
+     margin-top: 14px;
+     margin-left: 20px;
+ }
+ .ccat-fee2 h4{
+     color: white;
+     font-size: 15px;
+     display: inline;
+     font-family: roboto;
+ }
+ .coursefee2{
+     background-color: white;
+     margin-top: 5px;
+     height: 30px;
+     margin-left: 8px;
+     margin-right: 8px;
+     text-align: center;
+     font-size: 22px;
+    
+ }
+ .coursefee2 strike{
+     color: red;
+ }
+ .buy-ccat2{
+     background-color: rgb(255, 223, 43);
+     margin-top: 10px;
+     margin-left: 8px;
+     margin-right: 8px;
+     text-align: center;
+     font-size: 25px;
+     font-family: arial;
+ }
+ .buy-ccat2 i{
+     color: rgb(60, 60, 60);
+     margin-left: -70px;
+     font-size: 20px;
+ }
+ .purchase-protect2{
+     color: white;
+     line-height:25px;
+     row-gap: 5px;
+ }
+ .reasons{
+    width: 50%;
+    height: 700px;
+    margin-top: 80px;
+    margin-left: 60px;
+ }
+ .reasons h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-family: roboto;
+    color: rgb(4, 136, 159);
+ }
+ .reasons i{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 40px;
+    float: left;
+    margin-right: 15px;
+    color:  rgb(63, 42, 152);;
+ }
+ .reasons p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: roboto;
+    margin-top: 28px;
+    font-weight: 1rem;
+    margin-left: 69px;
+ }
+ .reasons b{
+    font-weight: 2rem;
+    font: bold;
+ }
+ .reasons-img{
+    float: right;
+ }
+ .reasons-img img{  
+    width: 500px;
+    height: 550px;
+    margin-right: 40px;
+    margin-top: -800px;
+    margin-bottom: 40px;
+ }
+ .do-navbar{
+    width: 100%;
+    background-color: rgb(63, 42, 152);
+    height: 100px;
+    margin-top: 20px;
+ }
+ .do-navbar h1{
+    color:rgb(255, 223, 43);
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family: roboto;
+ }
+ .do-navbar p{
+    margin-top: 20px;
+    margin-left:60px;
+    color: white;
+    font-size: 20px;
+ }
+ .asked-questions{
+    margin-top: 80px;
+    margin-left: 80px;
+    color:rgb(63, 42, 152) ;
+    font-size: 18px;
+    font-family: roboto;
+ }
+ .about-ccat{
+    margin-left: 80px;
+    margin-top: 50px;
+    position: relative;
+    color:rgb(63, 42, 152) ;
+    font-family: roboto;
+ }
+ #accordion{
+    width: 600px;
+    margin-top:0px;
+ }
+ #accordion li{
+    list-style: none;
+    width:80%;
+    margin-bottom: 0px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+ }
+ #accordion li label{
+    padding: 10px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color:rgb(63, 42, 152) ;
+ }
+ #accordion li label:hover{
+    color: white;
+    background-color: rgb(63, 42, 152);
+ }
+ #accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: black;
+ }
+ #accordion li label span:hover{
+    color: white;
+ }
+ #accordion label + input[type="radio"]{
+    display: none;
+ }
+ #accordion .ccat-content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background-color:  rgb(238, 238, 238);
+ }
+ #accordion label + input[type="radio"]:checked + .ccat-content{
+    max-height: 400px;
+ }
+ .about-right{
+    float: right;
+    position:relative;
+    margin-left: 150px;
+    margin-top: -680px;
+    margin-right: -100px;
+ }
+ #accordion1{
+    width: 600px;
+    margin-top:0px;
+ }
+ #accordion1 li{
+    list-style: none;
+    width:80%;
+    margin-bottom: 0px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+ }
+ #accordion1 li label{
+    padding: 10px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color:rgb(63, 42, 152) ;
+ }
+ #accordion1 li label:hover{
+    color: white;
+    background-color: rgb(63, 42, 152);
+ }
+ #accordion1 li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: black;
+ }
+ #accordion1 li label span:hover{
+    color: white;
+ }
+ #accordion1 label + input[type="radio"]{
+    display: none;
+ }
+ #accordion1 .ccat-content1{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background-color:  rgb(238, 238, 238);
+ }
+ #accordion1 label + input[type="radio"]:checked + .ccat-content1{
+    max-height: 400px;
+ }
+ .coursereviews{
+    width: 100%;
+    height: 55px;
+    background-color:rgb(63, 42, 152) ;
+    margin-top: 30px;
+ }
+ .coursereviews h1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: roboto;
+ }
+ .coursereviews img{
+    width: 100%;
+    height: 2600px;
+ }
+ .footer{
+    width: 100%;
+    margin-top: 2593px;
+    height: 50px;
+    background-color:rgb(47, 58, 148) ;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer span{
+    color: white;
+    font-size: 20px;
+}

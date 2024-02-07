@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+  display: flex;
+  margin-top: 40px;
+}
+.box1{
+  width: 600px;
+  height: 500px;
+}
+.box1 h1{
+  font-size: 100px;
+  margin-left: 50px;
+  color: rgb(63, 42, 152);
+  margin-top: 30px;
+}
+.box1 h2{
+    font-size: 50px;
+    margin-left: 30px;
+    color: rgb(4, 136, 159);
+}
+.box1 p{
+  font-size: 20px;
+  color:rgb(51, 65, 85);
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.box2{
+  width: 600px;
+  height: 550px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.container1{
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-bottom: 10px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.hover-link{
+ color:black;
+ text-decoration: none;
+}
+.hover-link:hover{
+  color: cyan;
+  transition: 0.2s ease-out;
+}
+.main-nav{
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.company-logo img{
+  width: 100px;
+}
+.nav-links{
+  flex-basis: 730px;
+}
+.nav-links ul{
+  justify-content: end;
+  gap: 40px;
+  text-decoration: none;
+}
+
+input[type=text], select, textarea {
+  width:200px; /* Full width */
+  padding: 20px; /* Some padding */ 
+  float: left;
+  border-radius: 5px; /* Rounded borders */
+ 
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.question h1{
+  width:60%;
+  font-size: 55px;
+  margin-left: 40px;
+  color: rgb(63, 42, 152);
+  font-family: sans-serif;
+}
+details{
+  width: 50%;
+  height: 35px;
+  background-color:rgba(113, 204, 255, 0.1);
+  margin-left: 40px;
+  margin-top: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+summary{
+  color: rgb(63, 42, 152);
+  margin-left: 40px;
+  font-size:20px ;
+  margin-top:20px ;
+  text-decoration: none;
+}
+summary:hover{
+  color: white;
+ background-color: rgb(63, 42, 152);
+}
+h3{
+  margin-left: 5px;
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  line-height: 20px;
+}
+.q2 details{
+  width: 50%;
+  height: 35px;
+  background-color:rgba(113, 204, 255, 0.1);
+  margin-left: 40px;
+  margin-top: 60px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.q3 details{
+  width: 50%;
+  height: 35px;
+  background-color:rgba(113, 204, 255, 0.1);
+  margin-left: 40px;
+  margin-top: 60px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.q4 details{
+  width: 50%;
+  height: 35px;
+  background-color:rgba(113, 204, 255, 0.1);
+  margin-left: 40px;
+  margin-top: 60px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.q5 details{
+  width: 50%;
+  height: 35px;
+  background-color:rgba(113, 204, 255, 0.1);
+  margin-left: 40px;
+  margin-top: 60px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.image img{
+  float: right;
+  display: block;
+  width: 45vw;
+  margin-top: -400px;
+}
+.more-ways{
+  width: 100%;
+  height: 300px;
+  margin-left: 30px;
+}
+.more-ways h1{
+  color:rgb(63, 42, 152);
+  margin-top: 40px;
+  font-family: Roboto;
+}
+.mail-img img{
+  width: 8vw;
+  float: left;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.whatsapp img{
+  width: 8vw;
+  float: left;
+  margin-left: 400px;
+  margin-top:60px;
+}
+.phone img{
+  width: 8vw;
+  float: left;
+  margin-top: 50px;
+  margin-left:350px ;
+}
+.description h1{
+  display: left;
+  margin-left: 60px;
+  margin-top: -80px;
+  color: rgb(63, 42, 152);
+  font-size:20px ;
+}
+.w-number h1{
+  float: left;
+  margin-left: 550px;
+  margin-top: -30px;
+  color: rgb(63, 42, 152);
+  font-size:20px ;
+}
+.number h1{
+  float:right;
+  margin-right: 50px;
+  margin-top: -30px;
+  color: rgb(63, 42, 152);
+  font-size:20px ;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color:rgb(63, 42, 152); 
+  margin-top: 30px;
+  padding-top: 15px;
+}
+.footer h1{
+  font-size: 20px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  align-items: center;
+}
